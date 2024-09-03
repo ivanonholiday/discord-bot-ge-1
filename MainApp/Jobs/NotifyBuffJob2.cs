@@ -15,7 +15,7 @@ public class NotifyBuffJob2 : IJob
         var embed = new EmbedBuilder
         {
             Title = "領地摸球 最後5分鐘！",
-            Color = Color.Gold,
+            Color = Color.Red,
         }.Build();
 
         foreach (var url in urls)
